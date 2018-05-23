@@ -1,0 +1,89 @@
+body {
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Dosis', sans-serif;
+  box-sizing: border-box;
+}
+
+label {
+  color: white;
+}
+
+input {
+  border: 2px solid pink;
+  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-radius: .2rem;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 15rem 0 2rem 0;;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  margin:auto;
+  display:block;
+  text-align: center;
+  border-top: 1px solid #0f0709;
+  background: #7f65d6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d18ab6), to(#7f65d6));
+  background: -webkit-linear-gradient(top, #d18ab6, #7f65d6);
+  background: -moz-linear-gradient(top, #d18ab6, #7f65d6);
+  background: -ms-linear-gradient(top, #d18ab6, #7f65d6);
+  background: -o-linear-gradient(top, #d18ab6, #7f65d6);
+  padding: 10.5px 21px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+button:hover {
+  border-top-color: #995abd;
+  background: #995abd;
+  color: #ffffff;
+}
+
+button:active {
+  border-top-color: #6744a6;
+  background: #6744a6;
+}
+
+.button {
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  position: relative;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 7px;
+}
+
+.button span {
+display: inline-block;
+    background: #191919;
+    color: white;
+    text-transform: uppercase;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 800;
+    font-size: 3rem;
+}
