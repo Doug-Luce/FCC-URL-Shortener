@@ -1,0 +1,15 @@
+doctype html
+html(lang=en)
+  head
+    title= 'Free Code Camp URL Shortener'
+    link(id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon")
+    link(rel="stylesheet" type="text/css" href="styles.css")
+    link(ref="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet")
+  body
+  header
+    main
+      h1 Free Code Camp URL Shortener
+      form(method='POST' action='/submit')
+        label(for='url')
+        input(type='text', placeholder='Enter a URL to shorten ' name='url' required)
+        button(type='submit') Shorten
